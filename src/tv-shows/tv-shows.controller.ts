@@ -1,4 +1,12 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Post,
+  Body,
+  Patch,
+  Param,
+  Delete,
+} from '@nestjs/common';
 import { TvShowsService } from './tv-shows.service';
 import { CreateTvShowDto } from './dto/create-tv-show.dto';
 import { UpdateTvShowDto } from './dto/update-tv-show.dto';
